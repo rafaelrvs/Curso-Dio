@@ -1,4 +1,4 @@
-public class MynhaClasse {
+public class PalavrasImutaveis {
   public static void main(String [] args) {
 
     // PALAVRAS MAIUSCULA POR COMPLETO, NÃO PODE SER ALTERADA; IMUTAVEL CONVENÇÃO UPPERCASE
