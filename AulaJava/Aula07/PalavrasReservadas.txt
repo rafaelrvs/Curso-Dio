@@ -1,0 +1,22 @@
+A linguagem java possui 52 palavras reservadas.
+controle de pacotes  import: importa pacotes e classes dentro do codigo
+
+modificadores de acesso
+public  publica
+private nivel de classes
+protect uso de herança
+
+void >> ausença de valor
+
+abstract:classe qye não pode ser instanciada  ou metodo que precisa ser implementado
+por outra subclasse
+
+class
+
+extends: inicia a subclasse que a subclasse esta estendendo
+
+static: faz um metodo ou variavel pertencer à  classe ao inves de as inicias
+
+
+
+
