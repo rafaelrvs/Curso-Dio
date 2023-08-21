@@ -1,3 +1,6 @@
+// Estrutura condicional
+
+
 import java.util.Scanner;
 
 public class ResultadoEscolar {
@@ -14,11 +17,6 @@ public class ResultadoEscolar {
 
             notaDoAluno.atribuindoNota(notaDigitada);
 
-            if(notaDoAluno.nota >= 5 )
-                System.out.println("Aluno aprovado");
-            else if (notaDoAluno.nota <5 && notaDoAluno.nota >=3)
-                System.out.println("Aluno de exame");
-            else
-            System.out.println("Reprovado");       
+        
     }
 }
