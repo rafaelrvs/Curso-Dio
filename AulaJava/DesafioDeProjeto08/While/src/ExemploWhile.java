@@ -1,5 +1,4 @@
 import java.util.concurrent.ThreadLocalRandom;
-
 public class ExemploWhile {
     public static void main(String[] args) throws Exception {
      double mesada = 50.0;
