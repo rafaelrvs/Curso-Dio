@@ -13,7 +13,7 @@ public class AboutMe {
         String sobrenome = entrada.nextLine();
         System.out.println("Diite sua idade: ");
         int idade = entrada.nextInt();
-        System.out.println("Diite sua altura: ");
+        System.out.println("Diite sua al: ");
         double altura = entrada.nextDouble();
       }
       catch(InputMismatchException e){
