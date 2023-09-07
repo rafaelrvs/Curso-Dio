@@ -3,6 +3,7 @@
 [] relacionais/ sql;
 [] não relacionais/ NoSQL;  
 [] Orientado a objetos;
+
 [] Hierarquico;
 
 
