@@ -115,6 +115,52 @@ ESCALABILIDADE:
 
 
 
+# Tipos:
+[x] key-values = cada chave é indentificador unico; "Redis", "Riak", "Amazon"; 
+[x] Documento = Documentos semi estruturados; MongoDb, CouchBase,Apache; "Utilizado em catalogo de e-commerce.
+[x] coluna baseado em colunas, Apache Cassandra, ScullaDb, HBase= usado registro de logs.
+[x] Grafos  Utilizando em  Redes Sociais.
+
+* tolerancia a falha 
+* alta disponibilidade
+* Tamanho  documento 16MB
+* GeoJSON
+
+# ESTRUTURA DE DOCUMENTO:
+
+  > INICIA E FECHA COM CHAVES " DELIMITADOR DE INICIO E FIM"
+
+  {
+    "_id":01,
+    "nome": "nome",
+    "idade": 30,
+    "data_nascimento": "1999-10-05",
+    "endereco":{
+      "lougradouro": "rua123",
+      "numero":123,
+    }
+  }
+
+  # Operações CRUD no banco:
+
+  Criação de collection:
+  >bd.createCollection("usuario")
+  >bd.createCollection("destino")
+  >bd.usuarioInsertOne({})
+  >bd.usuarioInserMany([{}]) -> inserção em massa
+
+
+  # Consulta:
+
+  bd.usuarios.find({})
+  bd.usuarios.findOne({}) -> primeiro que localizar
+  bd.usuarios.findOneAndUpdate({},{})
+  bd.usuarios.findOneAndDelet({})
+
+
+
+
+
 
 
 
